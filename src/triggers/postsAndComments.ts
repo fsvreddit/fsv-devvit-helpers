@@ -1,7 +1,7 @@
-import { PostSubmit, CommentSubmit, PostCreate, CommentCreate, PostUpdate, CommentUpdate } from "@devvit/protos";
+import { PostSubmit, CommentSubmit, PostCreate, CommentCreate, PostUpdate, CommentUpdate, PostFlairUpdate } from "@devvit/protos";
 import { TriggerContext } from "@devvit/public-api";
 
-export async function fixPostTriggerEvent<T extends PostSubmit | PostCreate | PostUpdate> (event: T, context: TriggerContext): Promise<T> {
+export async function fixPostTriggerEvent<T extends PostSubmit | PostCreate | PostUpdate | PostFlairUpdate> (event: T, context: TriggerContext): Promise<T> {
     const eventToReturn: T = { ...event };
 
     if (!eventToReturn.post || !eventToReturn.author) {
