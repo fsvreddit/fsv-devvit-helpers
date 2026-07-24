@@ -1,6 +1,6 @@
 {
     "name": "@fsvreddit/fsv-devvit-helpers",
-    "version": "0.1.7",
+    "version": "0.1.8",
     "description": "Helper functions and utilities for DevVit apps on Reddit",
     "main": "dist/index.js",
     "scripts": {
@@ -34,7 +34,7 @@
         "devvit"
     ],
     "peerDependencies": {
-        "@devvit/protos": "^0.13.0",
-        "@devvit/public-api": "^0.13.0"
+        "@devvit/protos": "^0.13.7",
+        "@devvit/public-api": "^0.13.7"
     }
 }
