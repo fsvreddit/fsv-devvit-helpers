@@ -1,6 +1,6 @@
 {
     "name": "@fsvreddit/fsv-devvit-helpers",
-    "version": "0.1.8",
+    "version": "0.1.9",
     "description": "Helper functions and utilities for DevVit apps on Reddit",
     "main": "dist/index.js",
     "scripts": {
@@ -21,7 +21,7 @@
     "license": "BSD-3-Clause",
     "dependencies": {
         "date-fns": "^4.1.0",
-        "devvit-helpers": "^0.10.0"
+        "devvit-helpers": "^0.11.0"
     },
     "devDependencies": {
         "@fsvreddit/eslint-config": "github:fsvreddit/eslint-config",
@@ -34,7 +34,7 @@
         "devvit"
     ],
     "peerDependencies": {
-        "@devvit/protos": "^0.13.7",
-        "@devvit/public-api": "^0.13.7"
+        "@devvit/protos": "^0.13.7 || ^0.14.0",
+        "@devvit/public-api": "^0.13.7 || ^0.14.0"
     }
 }
