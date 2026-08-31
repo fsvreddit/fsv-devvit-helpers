@@ -1,7 +1,7 @@
 {
     "name": "@fsvreddit/fsv-devvit-helpers",
     "version": "0.1.13",
-    "description": "Helper functions and utilities for DevVit apps on Reddit",
+    "description": "Helper functions and utilities for Devvit apps on Reddit",
     "main": "dist/index.js",
     "scripts": {
         "test": "npm run test:unit",
